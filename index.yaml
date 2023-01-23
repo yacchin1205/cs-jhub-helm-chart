@@ -233,6 +233,29 @@ entries:
     version: 1.1.3-rcosdp.yacchin1205.1
   - apiVersion: v2
     appVersion: 1.4.2
+    created: "2023-01-23T19:48:12.4178324+09:00"
+    description: Multi-user Jupyter installation
+    digest: 0d9f8bd67f5dcac99fd0d1659e8dd69cb2b02e46269fc502b55dc840bf32cb84
+    home: https://z2jh.jupyter.org
+    icon: https://jupyter.org/assets/hublogo.svg
+    keywords:
+    - jupyter
+    - jupyterhub
+    - z2jh
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - name: Simon Li
+      url: https://github.com/manics/
+    name: jupyterhub
+    sources:
+    - https://github.com/jupyterhub/zero-to-jupyterhub-k8s
+    urls:
+    - https://yacchin1205.github.io/cs-jhub-helm-chart/jupyterhub-1.1.3-named-servers.tgz
+    version: 1.1.3-named-servers
+  - apiVersion: v2
+    appVersion: 1.4.2
     created: "2022-12-26T13:54:55.5781653+09:00"
     description: Multi-user Jupyter installation
     digest: bd1441d9bc87d626009f32b58a036143ce0f471a2b4230ac0b9959a4fd952c18
@@ -392,4 +415,4 @@ entries:
     urls:
     - https://yacchin1205.github.io/cs-jhub-helm-chart/jupyterhub-1.1.3-n029.hb5e30758.tgz
     version: 1.1.3-n029.hb5e30758
-generated: "2022-12-26T13:54:55.5691537+09:00"
+generated: "2023-01-23T19:48:12.4117134+09:00"
